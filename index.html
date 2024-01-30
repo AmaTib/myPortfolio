@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=chillax@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=author@200&display=swap"
+      rel="stylesheet"
+    />
+    <title>Vite App</title>
+    <script type="module" src="src/js/main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div id="nameContainer">
+        <h1 class="name firstName">Amanda</h1>
+        <h2 class="name lastName">Tibell</h2>
+      </div>
+      <p id="jobTitle">Frontend Utvecklare</p>
+    </header>
+    <nav>
+      <ul id="navList">
+        <li><a class="navLink" href="#aboutMeSection">Om mig</a></li>
+        <li><a class="navLink" href="#projectsSection">Projekt</a></li>
+        <li><a class="navLink" href="#nameContainer">Start</a></li>
+      </ul>
+
+      <div id="hamburgerSymbol">
+        <span class="menuBar"></span>
+        <span class="menuBar"></span>
+        <span class="menuBar"></span>
+      </div>
+    </nav>
+    <main>
+      <section id="aboutMeSection">
+        <div id="imageAndTitleWrapper">
+          <h2>Kul att du hittade hit!</h2>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, autem
+          ipsam quae, aut consequuntur suscipit obcaecati numquam, expedita
+          blanditiis sit ducimus temporibus porro. Odit culpa dolor libero sequi
+          porro at?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, nam
+          quibusdam. Natus molestias quod iusto, impedit eveniet fuga modi,
+          officiis sunt iure quis distinctio error, recusandae laudantium et
+          ullam provident!
+        </p>
+        <img
+          id="portrait"
+          src="/src/Assets/IMG_4829 (2).JPG"
+          alt="självporträtt"
+        />
+      </section>
+      <section id="projectsSection">
+        <h2>Projekt</h2>
+        <div class="projectCardContainer">
+          <figure>
+            <figcaption>ToDo List</figcaption>
+            <img src="" alt="" />
+          </figure>
+        </div>
+        <div class="projectCardContainer">
+          <figure>
+            <figcaption>Movie Search</figcaption>
+            <img src="" alt="" />
+          </figure>
+        </div>
+        <div class="projectCardContainer">
+          <figure>
+            <figcaption>Under konstruktion</figcaption>
+            <img src="" alt="" />
+          </figure>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy;Amanda Tibell 2023</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+#hamburgerSymbol {
+  cursor: pointer;
+  background-color: rgb(47, 47, 47);
+
+  .menuBar {
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: rgb(125, 76, 76);
+  }
+}
