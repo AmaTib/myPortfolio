@@ -1,6 +1,8 @@
 #hamburgerSymbol {
   cursor: pointer;
   background-color: rgb(47, 47, 47);
+  position: absolute;
+  height: 10vh;
 
   .menuBar {
     width: 25px;
