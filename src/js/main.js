@@ -51,4 +51,12 @@ projects.forEach((project) => {
   projectCardContainer.appendChild(figure);
   projectCardContainer.appendChild(projectInfo);
   projectsSection.appendChild(projectCardContainer);
+
+  projectCardContainer.addEventListener("mouseenter", () => {
+    video.play();
+  });
+  projectCardContainer.addEventListener("mouseleave", () => {
+    video.pause();
+    video.currentTime = 1;
+  });
 });
