@@ -92,6 +92,16 @@ section {
   margin: 2rem;
 }
 
+#skillsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  img {
+    margin: 0.5rem 1rem;
+    height: 50px;
+  }
+}
+
 //PROJECTS----------------------------------------------
 .projectCardContainer {
   background-color: rgb(200, 199, 188);
