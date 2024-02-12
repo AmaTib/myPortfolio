@@ -11,14 +11,14 @@ hamburgerSymbol.addEventListener("click", () => {
 const projects = [
   {
     title: "Att Göra Lista",
-    videoUrl: "/src/Assets/todolistvideo.mov",
+    videoUrl: "./src/Assets/todolistvideo.mov",
     videoThumbnail: "/src/Assets/thumbnailTodo.png",
     technique: "Javascript, Scss",
     websiteUrl: "https://amatib.github.io/ToDoList-ForGithubPages/",
   },
   {
     title: "Webbshop",
-    videoUrl: "/src/Assets/webshopvideo.mov",
+    videoUrl: "./src/Assets/webshopvideo.mov",
     videoThumbnail: "/src/Assets/thumbnailWebshop.png",
     technique: "Typescript, Scss",
     websiteUrl: "https://amatib.github.io/the-webshop-team3-fork/",
