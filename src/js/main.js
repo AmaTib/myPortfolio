@@ -8,6 +8,13 @@ hamburgerSymbol.addEventListener("click", () => {
   hamburgerSymbol.classList.toggle("active");
 });
 
+document.querySelectorAll("li").forEach((li) =>
+  li.addEventListener("click", () => {
+    nav.classList.toggle("active");
+    hamburgerSymbol.classList.toggle("active");
+  })
+);
+
 const projects = [
   {
     title: "Att Göra Lista",
