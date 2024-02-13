@@ -2,8 +2,17 @@
 @import "hamburger";
 
 @media screen and (min-width: 768px) {
+  header {
+    height: 90vh;
+  }
+
+  #aboutMeSection,
+  #projectsSection {
+    padding-top: 15vh;
+  }
+
   #nameContainer {
-    padding-top: 150px;
+    padding-top: 120px;
 
     .name {
       font-size: 4rem;
@@ -17,7 +26,6 @@
 
   #jobTitle {
     font-size: 2.5rem;
-    margin-top: 5%;
   }
 
   #projectsSection {
@@ -46,8 +54,28 @@
   }
 
   #hamburgerSymbol {
-    height: 4rem;
-    width: 4rem;
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    /* background-color: $secondaryColor; */
+    background-color: rgb(20, 20, 20);
+
+    ul {
+      height: 10vh;
+      /* padding: 7px 0 7px 0; */
+      width: 100%;
+
+      li {
+        a {
+          color: rgb(148, 147, 139);
+        }
+      }
+    }
   }
 }
 
