@@ -1,0 +1,71 @@
+@import "variables";
+@import "hamburger";
+
+@media screen and (min-width: 768px) {
+  #nameContainer {
+    padding-top: 200px;
+
+    .name {
+      font-size: 6rem;
+      line-height: 8rem;
+    }
+
+    .name::first-letter {
+      font-size: 11rem;
+    }
+  }
+
+  #jobTitle {
+    font-size: 3.5rem;
+    margin-bottom: 19%;
+  }
+
+  #projectsSection {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+
+    h2 {
+      width: 100%;
+    }
+
+    .projectCardContainer {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 100%;
+      padding: 1rem;
+
+      video {
+        height: 400px;
+        border-radius: 0.5rem;
+      }
+    }
+  }
+
+  #hamburgerSymbol {
+    height: 4rem;
+    width: 4rem;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  #nameContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  #jobTitle {
+    font-size: 3.5rem;
+    margin-bottom: 15%;
+  }
+
+  #projectsSection {
+    .projectCardContainer {
+      height: fit-content;
+      width: 45%;
+    }
+  }
+}
