@@ -1,5 +1,6 @@
 @import "hamburger";
 @import "variables";
+@import "mixins";
 
 * {
   margin: 0;
@@ -64,9 +65,12 @@ section {
 
   h2 {
     font-size: 1.7rem;
-
+    opacity: 50%;
     font-family: $secondFontFamily;
     color: $secondaryColor;
+  }
+  .sectionTitleAppear {
+    @include scrollanimation;
   }
 }
 

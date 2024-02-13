@@ -1,0 +1,15 @@
+@mixin scrollanimation {
+  animation: titleAppear 0.8s ease 0s 1 normal forwards;
+
+  @keyframes titleAppear {
+    0% {
+      opacity: 50%;
+      transform: translateX(-20px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}
