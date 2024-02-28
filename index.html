@@ -14,6 +14,10 @@
       href="https://api.fontshare.com/v2/css?f[]=author@200&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <title>Amanda Tibell</title>
     <link rel="icon" type="image/x-icon" href="/src/Assets/tabIcon.png" />
     <script type="module" src="src/js/main.js" defer></script>
@@ -45,7 +49,7 @@
         <div id="imageAndTitleWrapper">
           <h2>Kul att du hittade hit!</h2>
         </div>
-        <p>
+        <p class="aboutText">
           Jag heter Amanda och är en blivande front end developer som för
           tillfället studerar vid Medieinstitutet. Att utforska webbutveckling
           har varit en spännande resa för mig. Innan jag började min utbildning
@@ -53,9 +57,9 @@
           fascinerad och inspirerad av möjligheterna och utvecklingspotentialen
           inom yrket.
         </p>
-        <p>
-          Jag är en noggrann och hjälpsam problemlösare som är uppmärksam på
-          detaljer. Att designa användarvänliga och estetiskt tilltalande
+        <p class="aboutText">
+          Jag är en noggrann och samarbetsvillig problemlösare som är uppmärksam
+          på detaljer. Att designa användarvänliga och estetiskt tilltalande
           gränssnitt är en aspekt av webbutveckling som jag verkligen
           uppskattar. Längre ned kan du utforska mina projekt och ta del av mitt
           arbete.
@@ -64,41 +68,68 @@
         <img id="portrait" src="/src/Assets/portrait.JPG" alt="självporträtt" />
 
         <div id="skillsContainer">
-          <img
-            class="skillIcon"
-            src="/src/Assets/techniqeIcons/HTML5.svg"
-            alt="Skill Icon"
-          />
-          <img
-            class="skillIcon"
-            src="/src/Assets/techniqeIcons/CSS3.svg"
-            alt="Skill Icon"
-          />
-          <img
-            class="skillIcon"
-            src="/src/Assets/techniqeIcons/JavaScript.svg"
-            alt="Skill Icon"
-          />
-          <img
-            class="skillIcon"
-            src="/src/Assets/techniqeIcons/Sass.svg"
-            alt="Skill Icon"
-          />
-          <img
-            class="skillIcon"
-            src="/src/Assets/techniqeIcons/TypeScript.svg"
-            alt="Skill Icon"
-          />
-          <img
-            class="skillIcon"
-            src="/src/Assets/techniqeIcons/React.svg"
-            alt="Skill Icon"
-          />
-          <img
-            class="skillIcon"
-            src="/src/Assets/techniqeIcons/Bootstrap.svg"
-            alt="Skill Icon"
-          />
+          <figure class="skillIconWrapper">
+            <img
+              class="skillIcon"
+              src="/src/Assets/techniqeIcons/HTML5.svg"
+              alt="Skill Icon"
+            />
+            <figcaption>HTML</figcaption>
+          </figure>
+
+          <figure class="skillIconWrapper">
+            <img
+              class="skillIcon"
+              src="/src/Assets/techniqeIcons/CSS3.svg"
+              alt="Skill Icon"
+            />
+            <figcaption>CSS</figcaption>
+          </figure>
+
+          <figure class="skillIconWrapper">
+            <img
+              class="skillIcon"
+              src="/src/Assets/techniqeIcons/Sass.svg"
+              alt="Skill Icon"
+            />
+            <figcaption>SASS</figcaption>
+          </figure>
+
+          <figure class="skillIconWrapper">
+            <img
+              class="skillIcon"
+              src="/src/Assets/techniqeIcons/JavaScript.svg"
+              alt="Skill Icon"
+            />
+            <figcaption>Javascript</figcaption>
+          </figure>
+
+          <figure class="skillIconWrapper">
+            <img
+              class="skillIcon"
+              src="/src/Assets/techniqeIcons/TypeScript.svg"
+              alt="Skill Icon"
+            />
+            <figcaption>Typescript</figcaption>
+          </figure>
+
+          <figure class="skillIconWrapper">
+            <img
+              class="skillIcon"
+              src="/src/Assets/techniqeIcons/React.svg"
+              alt="Skill Icon"
+            />
+            <figcaption>React</figcaption>
+          </figure>
+
+          <figure class="skillIconWrapper">
+            <img
+              class="skillIcon"
+              src="/src/Assets/techniqeIcons/Bootstrap.svg"
+              alt="Skill Icon"
+            />
+            <figcaption>Bootstrap</figcaption>
+          </figure>
         </div>
       </section>
 
@@ -107,6 +138,17 @@
       </section>
     </main>
     <footer>
+      <div id="contactIcons">
+        <a
+          class="contactIcon"
+          href="https://www.linkedin.com/in/amanda-tibell"
+          target="_blank"
+          ><i class="bi bi-linkedin"></i
+        ></a>
+        <a class="contactIcon" href="https://github.com/AmaTib" target="_blank"
+          ><i class="bi bi-github"></i
+        ></a>
+      </div>
       <p>&copy;Amanda Tibell 2024</p>
     </footer>
   </body>

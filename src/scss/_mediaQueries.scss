@@ -28,6 +28,10 @@
     font-size: 2.5rem;
   }
 
+  .aboutText {
+    font-size: 1.3rem;
+  }
+
   #projectsSection {
     flex-direction: row;
     flex-wrap: wrap;
@@ -76,6 +80,10 @@
         }
       }
     }
+  }
+
+  footer {
+    flex-direction: row;
   }
 }
 
