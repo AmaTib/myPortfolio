@@ -13,4 +13,11 @@ export const projects = [
     technique: "Typescript, Scss",
     websiteUrl: "https://amatib.github.io/the-webshop-team3-fork/",
   },
+  {
+    title: "Hund Himlen",
+    videoUrl: "./dogheavenvideo.mov",
+    videoThumbnail: "./thumbnailDogHeaven.jpg",
+    technique: "Typescript, Scss",
+    websiteUrl: "https://amatib.github.io/DogHeaven/",
+  },
 ];
