@@ -20,4 +20,11 @@ export const projects = [
     technique: "Typescript, Scss",
     websiteUrl: "https://amatib.github.io/DogHeaven/",
   },
+  {
+    title: "Tic tac toe",
+    videoUrl: "./tictactoevideo.MOV",
+    videoThumbnail: "./public/thumbnailTictactoe.JPG",
+    technique: "Vue, Typescrip, CSSt",
+    websiteUrl: "https://amatib.github.io/vue-tic-tac-toe/",
+  },
 ];
