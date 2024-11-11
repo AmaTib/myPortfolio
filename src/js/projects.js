@@ -24,7 +24,7 @@ export const projects = [
     title: "Tic tac toe",
     videoUrl: "./tictactoevideo.MOV",
     videoThumbnail: "./public/thumbnailTictactoe.JPG",
-    technique: "Vue, Typescrip, CSSt",
+    technique: "Vue, Typescrip, CSS",
     websiteUrl: "https://amatib.github.io/vue-tic-tac-toe/",
   },
 ];
