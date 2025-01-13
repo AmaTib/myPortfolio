@@ -1,3 +1,20 @@
+@keyframes titleAppear {
+    0% {
+      opacity: 10%;
+      transform: translateX(200px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+
+.mainContent{
+    overflow: hidden;
+    
+}
 
 .nameContainer{
     border: 3px solid;
@@ -7,9 +24,11 @@
     border-right: 0;
     border-top: 0;
     padding-bottom: 7px;
+
 }
 
 h1{
+    animation: titleAppear 0.8s ease 0s 1 normal;
    font-size: 4rem;
    font-family: var(--heading-font);
    font-weight: 400;
@@ -20,4 +39,20 @@ h1{
     width: fit-content;
     margin: 0 auto;
     text-align: left;
+
+}
+
+.textContainer p{
+    font-size: 2rem;
+    
+}
+
+.textContainer p:first-child{
+    animation: titleAppear 1.2s ease 0s 1 normal forwards;
+}
+.textContainer p:nth-child(2){
+    animation: titleAppear 1.4s ease 0s 1 normal forwards;
+}
+.textContainer p:nth-child(3){
+    animation: titleAppear 1.6s ease 0s 1 normal forwards;
 }
