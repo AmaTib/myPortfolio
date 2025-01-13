@@ -1,0 +1,23 @@
+
+.nameContainer{
+    border: 3px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #756ACD 0%, #FF8CE4 50%, #E6406A 100%);
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    padding-bottom: 7px;
+}
+
+h1{
+   font-size: 4rem;
+   font-family: var(--heading-font);
+   font-weight: 400;
+}
+
+.textContainer{
+    padding-top: 7px;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: left;
+}
