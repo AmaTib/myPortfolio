@@ -1,4 +1,4 @@
-@keyframes titleAppear {
+/* @keyframes titleAppear {
     0% {
       opacity: 10%;
       transform: translateX(200px);
@@ -8,23 +8,22 @@
       opacity: 1;
       transform: translateX(0);
     }
-  }
-
+  } */
+  @import url('animations.css');
 
 .mainContent{
-    overflow: hidden;
-    
+    overflow: hidden; 
 }
 
 .nameContainer{
     border: 3px solid;
     border-image-slice: 1;
-    border-image-source: linear-gradient(to right, #756ACD 0%, #FF8CE4 50%, #E6406A 100%);
+  /*   border-image-source: linear-gradient(to right, #756ACD 0%, #FF8CE4 50%, #E6406A 100%); */
     border-left: 0;
     border-right: 0;
     border-top: 0;
     padding-bottom: 7px;
-
+    animation: gradientAnimation 10s infinite;
 }
 
 h1{
@@ -40,9 +39,7 @@ h1{
     margin: 0 auto;
     text-align: left;
     font-size: 1.5rem;
-
 }
-
 
 .textContainer p:first-child{
     animation: titleAppear 1.2s ease 0s 1 normal forwards;

@@ -1,0 +1,26 @@
+@keyframes gradientAnimation {
+    0% {
+        border-image-source: linear-gradient(to right, #756ACD 0%, #FF8CE4 50%, #E6406A 100%);
+    }
+    33% {
+                border-image-source: linear-gradient(to right, #c540e6 0%, #fed749 50%, #df80ca 100%);
+    }
+    66% {
+        border-image-source: linear-gradient(to right, #c540e6 0%, #df80ca 50%, #fed749 100%);
+    }
+    100% {
+        border-image-source: linear-gradient(to right, #756ACD 0%, #FF8CE4 50%, #E6406A 100%);
+    }
+}
+
+@keyframes titleAppear {
+    0% {
+      opacity: 10%;
+      transform: translateX(200px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
