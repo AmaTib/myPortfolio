@@ -39,13 +39,10 @@ h1{
     width: 220px;
     margin: 0 auto;
     text-align: left;
+    font-size: 1.5rem;
 
 }
 
-.textContainer p{
-    font-size: 2rem;
-    
-}
 
 .textContainer p:first-child{
     animation: titleAppear 1.2s ease 0s 1 normal forwards;
@@ -56,3 +53,16 @@ h1{
 .textContainer p:nth-child(3){
     animation: titleAppear 1.6s ease 0s 1 normal forwards;
 }
+
+@media only screen and (min-width: 600px) {
+    h1 {
+      font-size: 6rem;
+    }
+
+    .textContainer{
+        display: flex;
+        width: fit-content;
+    font-size: 2rem;
+
+    }
+  }

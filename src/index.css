@@ -18,16 +18,20 @@
   --big: 4rem;
 
   /* font sizes */
-  --main-text-mobile: 1rem;
-  --main-text-desktop: 1.25rem;
-  --heading-mobile: 2.25rem;
-  --heading-desktop: 3rem;
+  --main-text: 1rem;
+  --heading: 2.25rem;
   
   /* font families */
   --heading-font: "Italiana", serif;
   --main-font: "Karla", serif;
-  
-  
+}
+
+@media only screen and (min-width: 600px) {
+  :root{
+     /* font sizes */
+  --main-text: 1.25rem;
+  --heading: 3rem;
+  }
 }
 
 body{
