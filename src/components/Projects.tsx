@@ -25,7 +25,7 @@ export const Projects = () => {
     <>
       <ul className="projectList">
         {projects.map((project) => (
-          <li>
+          <li key={project.title}>
             <figure>
               <img src={project.img} alt={project.title} />
               <figcaption>{project.title}</figcaption>
