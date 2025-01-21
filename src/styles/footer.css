@@ -1,0 +1,26 @@
+footer{
+    padding-bottom: var(--medium);
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+footer a{
+    font-size: 2rem;
+    
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+
+.icon:hover + .iconText{
+   color: var(--fontColor);
+}
+
+.iconText{
+    display: block;
+    font-size: 1rem;
+    color: var(--background);
+    transition: color 0.5s ease-in-out;
+}
