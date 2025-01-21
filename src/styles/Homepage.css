@@ -1,15 +1,4 @@
-/* @keyframes titleAppear {
-    0% {
-      opacity: 10%;
-      transform: translateX(200px);
-    }
-
-    100% {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  } */
-  @import url('animations.css');
+@import url('animations.css');
 
 .mainContent{
     overflow: hidden; 
@@ -27,7 +16,7 @@
 }
 
 h1{
-    animation: titleAppear 0.8s ease 0s 1 normal;
+   animation: titleAppear 0.8s ease 0s 1 normal;
    font-size: 4rem;
    font-family: var(--heading-font);
    font-weight: 400;
@@ -59,7 +48,7 @@ h1{
     .textContainer{
         display: flex;
         width: fit-content;
-    font-size: 2rem;
+        font-size: 2rem;
 
     }
   }

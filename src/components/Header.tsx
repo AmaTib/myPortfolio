@@ -9,7 +9,7 @@ export const Header = () => {
     <>
       <header>
         <nav>
-          <ul>
+          <ul className="navbar">
             <li
               className={`navLink ${location.pathname === "/" ? "focus" : ""}`}
             >

@@ -1,0 +1,37 @@
+.projectList{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: var(--small);
+    padding: var(--big) 0;
+
+   animation: titleAppear 0.8s ease 0s 1 normal;
+
+}
+
+figure{
+    position: relative;
+}
+
+img{
+    width: 300px;
+}
+
+figcaption{
+    height: 100%;
+    width: 100%;
+    padding-top: 58px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+    background-color: #a1a1a1bb;
+    font-family: var(--heading-font);
+    font-size: var(--heading);
+    font-weight: 500;
+    transition: background-color 0.3s ease-in-out;
+}
+
+figcaption:hover{
+    background-color: #a1a1a177;
+}

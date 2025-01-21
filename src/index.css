@@ -37,6 +37,7 @@
 body{
   background-color: var(--background);
   margin: 0 var(--medium);
+  overflow-x: hidden;
 }
 
 
@@ -57,4 +58,8 @@ main{
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+ul{
+  list-style: none;
 }

@@ -1,6 +1,5 @@
 
-ul{
-    list-style: none;
+.navbar{
     display: flex;
     justify-content: space-around;
     padding-top: var(--big);
