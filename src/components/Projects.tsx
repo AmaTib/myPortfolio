@@ -17,7 +17,7 @@ export const Projects = () => {
       title: "Tic tac toe",
       description: "Det klassiska spelet tre i rad men på webben. Testa spela!",
       img: "/tictactoe.png",
-      techniques: ["Vue", "CSS", "HTML", "TypeScript"],
+      techniques: ["Vue", "CSS", "TypeScript"],
       websiteUrl: "https://amatib.github.io/vue-tic-tac-toe/",
       githubUrl: "https://github.com/AmaTib/vue-tic-tac-toe",
     },

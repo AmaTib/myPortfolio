@@ -15,12 +15,13 @@ footer a{
 }
 
 .icon:hover + .iconText{
-   color: var(--fontColor);
+   visibility: visible;
+   opacity: 1;
 }
 
 .iconText{
     display: block;
     font-size: 1rem;
-    color: var(--background);
-    transition: color 0.5s ease-in-out;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
 }

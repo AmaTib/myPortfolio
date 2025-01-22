@@ -63,3 +63,9 @@ main{
 ul{
   list-style: none;
 }
+
+h2{
+  font-family: var(--heading-font);
+  font-size: var(--heading);
+  font-weight: 500;
+}
