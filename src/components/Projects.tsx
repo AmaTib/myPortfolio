@@ -1,4 +1,6 @@
-import { Project } from "../models/project";
+import { useState } from "react";
+import { Project } from "../models/Project";
+import { ProjectModal } from "./ProjectModal";
 
 export const Projects = () => {
   const projects: Project[] = [
@@ -20,12 +22,20 @@ export const Projects = () => {
       githubUrl: "https://github.com/AmaTib/vue-tic-tac-toe",
     },
   ];
+  const [showModal, setShowModal] = useState(false);
+  const [projectObject, setProjectObject] = useState<Project>();
 
   return (
     <>
       <ul className="projectList">
         {projects.map((project) => (
-          <li key={project.title}>
+          <li
+            key={project.title}
+            onClick={() => {
+              setProjectObject(project);
+              setShowModal(true);
+            }}
+          >
             <figure>
               <img src={project.img} alt={project.title} />
               <figcaption>{project.title}</figcaption>
@@ -33,6 +43,15 @@ export const Projects = () => {
           </li>
         ))}
       </ul>
+
+      {showModal && projectObject && (
+        <ProjectModal
+          project={projectObject}
+          closeModal={() => {
+            setShowModal(false);
+          }}
+        />
+      )}
     </>
   );
 };
