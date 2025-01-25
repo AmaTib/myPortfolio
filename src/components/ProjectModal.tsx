@@ -1,5 +1,5 @@
 import { Project } from "../models/Project";
-import "../styles/ProjectModal.css";
+import "../styles/projectModal.css";
 
 import { FaVuejs } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
@@ -53,8 +53,12 @@ export const ProjectModal = ({ project, closeModal }: ProjectModalProps) => {
               ))}
             </div>
             <div>
-              <a href={project?.websiteUrl}>Besök sidan här -&gt;</a>
-              <a href={project?.githubUrl}>Github -&gt;</a>
+              <a href={project?.websiteUrl} target="_blank">
+                Besök sidan här -&gt;
+              </a>
+              <a href={project?.githubUrl} target="_blank">
+                Github -&gt;
+              </a>
             </div>
           </section>
         </div>

@@ -11,7 +11,7 @@ export const Projects = () => {
       img: `${import.meta.env.BASE_URL}/spacegazing.png`,
       techniques: ["Next.js", "TypeScript", "SCSS"],
       websiteUrl: "https://space-gazing.vercel.app/",
-      githubUrl: "",
+      githubUrl: "https://github.com/AmaTib/space-gazing",
     },
     {
       title: "Tic tac toe",

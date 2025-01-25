@@ -4,7 +4,9 @@ import "../styles/projects.css";
 export const ProjectsPage = () => {
   return (
     <>
-      <Projects />
+      <section className="mainContent">
+        <Projects />
+      </section>
     </>
   );
 };
