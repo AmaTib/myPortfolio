@@ -19,10 +19,15 @@
    animation: titleAppear 1.4s ease 0s 1 normal;
 }
 
-.skillsContainer{
+.skillsInAboutContainer{
     width: 90%;
     margin: 0 auto;
     margin-bottom: 2rem;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: var(--medium);
     
     border: 3px solid;
     border-image-slice: 1;
@@ -30,4 +35,16 @@
     border-right: 0;
     padding: 24px 0 7px 0;
     animation: gradientAnimation 10s infinite,  titleAppear 1.8s ease 0s 1 normal;
+}
+
+.skillsInAboutContainer .icon{
+    font-size: 2rem;
+}
+
+.skillsInAboutContainer .icon:hover{
+    cursor: auto;
+}
+
+.skillsInAboutContainer .iconText{
+    width: 2rem;
 }

@@ -28,7 +28,7 @@ export const AboutPage = () => {
         </p>
       </div>
 
-      <div className="skillsContainer">
+      <div className="skillsInAboutContainer">
         <div>
           <FaReact className="icon" />
           <span className="iconText">React</span>

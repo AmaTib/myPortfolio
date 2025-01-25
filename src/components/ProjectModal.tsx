@@ -1,6 +1,5 @@
 import { Project } from "../models/Project";
 import "../styles/projectModal.css";
-
 import { FaVuejs } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
