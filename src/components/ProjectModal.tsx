@@ -6,6 +6,7 @@ import { RiNextjsFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
 import { FaSass } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
+import { IoClose } from "react-icons/io5";
 interface ProjectModalProps {
   project: Project;
   closeModal: () => void;
@@ -15,9 +16,9 @@ export const ProjectModal = ({ project, closeModal }: ProjectModalProps) => {
   return (
     <>
       <div className="modalContainer">
-        <button className="closeButton" onClick={closeModal}>
-          X
-        </button>
+        <div className="closeButton" onClick={closeModal}>
+          <IoClose />
+        </div>
 
         <div className="modalContentContainer">
           <figure className="modalFigure">
