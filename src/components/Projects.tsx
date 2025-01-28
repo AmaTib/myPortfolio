@@ -21,6 +21,24 @@ export const Projects = () => {
       websiteUrl: "https://amatib.github.io/vue-tic-tac-toe/",
       githubUrl: "https://github.com/AmaTib/vue-tic-tac-toe",
     },
+    {
+      title: "The Zoo",
+      description:
+        "En interaktiv webapplikation byggd i react. Kolla in djuren och mata dem om hungerindikatorn är röd.",
+      img: `${import.meta.env.BASE_URL}/thezoo.png`,
+      techniques: ["React", "SCSS", "TypeScript"],
+      websiteUrl: "https://amatib.github.io/the-zoo/",
+      githubUrl: "https://github.com/AmaTib/the-zoo",
+    },
+    {
+      title: "Julgranstugan",
+      description:
+        "Som slutuppgift i en javascripts grundkurs skulle man bygga en webbshop med valfritt innehåll. Detta är resultatet.",
+      img: `${import.meta.env.BASE_URL}/julgranstugan.png`,
+      techniques: ["React", "SCSS", "JavaScript"],
+      websiteUrl: "https://amatib.github.io/the-webshop-team3-fork/",
+      githubUrl: "https://github.com/AmaTib/the-webshop-team3-fork",
+    },
   ];
   const [showModal, setShowModal] = useState(false);
   const [projectObject, setProjectObject] = useState<Project>();
@@ -34,6 +52,7 @@ export const Projects = () => {
             onClick={() => {
               setProjectObject(project);
               setShowModal(true);
+              document.body.classList.add("noScroll");
             }}
           >
             <figure>
@@ -49,6 +68,7 @@ export const Projects = () => {
           project={projectObject}
           closeModal={() => {
             setShowModal(false);
+            document.body.classList.remove("noScroll");
           }}
         />
       )}

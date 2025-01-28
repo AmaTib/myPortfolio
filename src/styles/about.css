@@ -6,6 +6,10 @@
     gap: 4rem;
 }
 
+.mainContainer{
+    overflow: hidden; 
+}
+
 .aboutMeText{
     text-align: left;
 }

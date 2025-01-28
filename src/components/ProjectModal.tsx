@@ -3,7 +3,7 @@ import "../styles/projectModal.css";
 import { FaVuejs } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
-import { SiTypescript } from "react-icons/si";
+import { SiJavascript, SiTypescript } from "react-icons/si";
 import { FaSass } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
@@ -16,7 +16,16 @@ export const ProjectModal = ({ project, closeModal }: ProjectModalProps) => {
   return (
     <>
       <div className="modalContainer">
-        <div className="closeButton" onClick={closeModal}>
+        <div
+          className="closeButton"
+          onClick={() => {
+            document
+              .getElementsByClassName("modalContainer")[0]
+              .classList.add("closeModal");
+
+            setTimeout(closeModal, 200);
+          }}
+        >
           <IoClose />
         </div>
 
@@ -44,7 +53,9 @@ export const ProjectModal = ({ project, closeModal }: ProjectModalProps) => {
                   ) : skill === "SCSS" ? (
                     <FaSass className="icon" />
                   ) : skill === "React" ? (
-                    <FaReact />
+                    <FaReact className="icon" />
+                  ) : skill === "JavaScript" ? (
+                    <SiJavascript className="icon" />
                   ) : (
                     <></>
                   )}
