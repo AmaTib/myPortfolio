@@ -40,6 +40,7 @@ figcaption{
     font-size: var(--heading);
     font-weight: 500;
     transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 figcaption:hover{

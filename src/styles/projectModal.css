@@ -111,4 +111,5 @@
     align-self: flex-end;
     margin: 1rem;
     font-size: 2rem;
+    cursor: pointer;
 }
