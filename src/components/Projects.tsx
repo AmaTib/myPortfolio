@@ -34,7 +34,7 @@ export const Projects = () => {
       title: "Julgranstugan",
       description:
         "Som slutuppgift i en javascripts grundkurs skulle man bygga en webbshop med valfritt innehåll. Detta är resultatet.",
-      img: `${import.meta.env.BASE_URL}/julgranstugan.png`,
+      img: `${import.meta.env.BASE_URL}julgranstugan.png`,
       techniques: ["SCSS", "TypeScript"],
       websiteUrl: "https://amatib.github.io/the-webshop-team3-fork/",
       githubUrl: "https://github.com/AmaTib/the-webshop-team3-fork",
