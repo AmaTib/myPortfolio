@@ -7,15 +7,15 @@ import { AboutPage } from "./pages/About.tsx";
 export const router = createBrowserRouter(
   [
     {
-      path: "/",
+      path: "",
       element: <Layout />,
       children: [
         {
-          path: "/",
+          path: "",
           element: <HomePage />,
         },
-        { path: "/projects", element: <ProjectsPage /> },
-        { path: "/about", element: <AboutPage /> },
+        { path: "projects", element: <ProjectsPage /> },
+        { path: "about", element: <AboutPage /> },
       ],
     },
   ],
