@@ -19,7 +19,5 @@ export const router = createBrowserRouter(
       ],
     },
   ],
-  { basename: process.env.VITE_BASE_PATH || "/myPortfolio/" }
+  { basename: "/" }
 );
-
-console.log("VITE_BASE_PATH:", process.env.VITE_BASE_PATH);
