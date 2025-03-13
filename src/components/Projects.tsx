@@ -8,7 +8,7 @@ export const Projects = () => {
       title: "SpaceGazing",
       description:
         "Denna applikation skapade jag som examensarbete. Jag använde NASAs APOD(Astronomy Picture Of the Day) Api och ville skapa en rolig och interaktiv upplevelse där man kunde drömma sig bort bland häftiga bilder och fakta",
-      img: `${import.meta.env.BASE_URL}/spacegazing.png`,
+      img: `${import.meta.env.BASE_URL}spacegazing.png`,
       techniques: ["Next.js", "TypeScript", "SCSS"],
       websiteUrl: "https://space-gazing.vercel.app/",
       githubUrl: "https://github.com/AmaTib/space-gazing",
@@ -16,7 +16,7 @@ export const Projects = () => {
     {
       title: "Tic tac toe",
       description: "Det klassiska spelet tre i rad men på webben. Testa spela!",
-      img: `${import.meta.env.BASE_URL}/tictactoe.png`,
+      img: `${import.meta.env.BASE_URL}tictactoe.png`,
       techniques: ["Vue", "CSS", "TypeScript"],
       websiteUrl: "https://amatib.github.io/vue-tic-tac-toe/",
       githubUrl: "https://github.com/AmaTib/vue-tic-tac-toe",
@@ -25,7 +25,7 @@ export const Projects = () => {
       title: "The Zoo",
       description:
         "En interaktiv webapplikation byggd i react. Kolla in djuren och mata dem om hungerindikatorn är röd.",
-      img: `${import.meta.env.BASE_URL}/thezoo.png`,
+      img: `${import.meta.env.BASE_URL}thezoo.png`,
       techniques: ["React", "SCSS", "TypeScript"],
       websiteUrl: "https://amatib.github.io/the-zoo/",
       githubUrl: "https://github.com/AmaTib/the-zoo",
