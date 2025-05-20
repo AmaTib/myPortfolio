@@ -1,1 +1,1 @@
-Visit: <a href="https://amatib.github.io/myPortfolio/" target="_blank">myPortfolio</a>
+Visit <a href="https://amandatibell.vercel.app/" target="_blank">my portfolio</a>
