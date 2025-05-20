@@ -10,8 +10,7 @@ export const AboutPage = () => {
         <h2>Vem är jag?</h2>
         <p>
           Djup fråga, men jag ska inte gå så djupt. Jag heter Amanda och är en
-          blivande front end utvecklare som för tillfället studerar vid
-          Medieinstitutet.
+          nyexaminerad front end utvecklare från Medieinstitutet.
         </p>
         <br />
         <p>
